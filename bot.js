@@ -22,7 +22,7 @@ class EchoBot extends ActivityHandler {
         this.onMembersAdded(async (context, next) => {
             const membersAdded = context.activity.membersAdded;
             await context.sendActivity(MessageFactory.text(`New members added: ${JSON.stringify(membersAdded)}`));
-            const welcomeText = 'Hello and welcome to S3 Connectwise Teams Bot!';
+            const welcomeText = 'Hello and welcome to S3 Connectwise Teams Bot!!!';
             for (let cnt = 0; cnt < membersAdded.length; ++cnt) {
                 if (membersAdded[cnt].id !== context.activity.recipient.id) {
                     await context.sendActivity(MessageFactory.text(welcomeText, welcomeText));
