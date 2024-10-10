@@ -1,0 +1,19 @@
+{
+    "name": "S3Bot",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "name": "https://s3bot.azurewebsites.net/api/messages",
+            "id": "07fc93b0-864a-11ef-8bdd-718ff250aac2",
+            "appId": "25d3071f-ecd7-47c5-9a14-79451e326466",
+            "appPassword": "JrR8Q~a9RkX4kDjLM1R1cE1LHqo3TLBZISu0saCm",
+            "tenantId": "",
+            "endpoint": "https://s3bot.azurewebsites.net/api/messages"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "path": "C:\\home\\site\\wwwroot\\S3Bot.bot",
+    "overrides": null
+}
